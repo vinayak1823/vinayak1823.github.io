@@ -140,6 +140,13 @@ main {
       width: 50%;
       border-radius: 7px;
       font-size: 0.9rem;
+      background: rgba(lighten($primary-color, 2), 0.9);
+      border: 1px solid white;
+      color: #fff;
+      &::placeholder {
+        padding-left: 0.5rem;
+        color: #fff;
+      }
     }
   }
 
