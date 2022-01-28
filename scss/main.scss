@@ -126,33 +126,30 @@ main {
 }
 
 // Contact Page
-.boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+.contact-clean {
+  text-align: center;
   align-items: center;
-  margin-top: 1rem;
 
   div {
-    font-size: 1.5rem;
-    border: 3px #fff solid;
-    padding: 1.5rem 2.5rem;
-    margin-bottom: 3rem;
-    @include easeOut;
-
-    &:hover {
-      background: $secondary-color;
-      color: set-text-color($secondary-color);
-      span,
-      a {
-        color: set-text-color($secondary-color);
-      }
+    margin: 1rem;
+    input {
+      height: 3rem;
     }
+    input,
+    textarea {
+      width: 50%;
+      border-radius: 7px;
+      font-size: 0.9rem;
+    }
+  }
+
+  .btn {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 //Button Styles
-
 .btn {
   display: block;
   padding: 0.5rem 1rem;
