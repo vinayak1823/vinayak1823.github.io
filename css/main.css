@@ -205,7 +205,14 @@ main {
     .contact-clean div textarea {
       width: 50%;
       border-radius: 7px;
-      font-size: 0.9rem; }
+      font-size: 0.9rem;
+      background: rgba(58, 65, 85, 0.9);
+      border: 1px solid white;
+      color: #fff; }
+      .contact-clean div input::placeholder,
+      .contact-clean div textarea::placeholder {
+        padding-left: 0.5rem;
+        color: #fff; }
   .contact-clean .btn, .contact-clean .btn-dark, .contact-clean .btn-light {
     margin-left: auto;
     margin-right: auto; }
@@ -279,7 +286,8 @@ main {
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    font-size: 4.5rem; }
+    font-size: 4.5rem;
+    margin-top: 13vh; }
   .projects {
     grid-template-columns: 1fr; }
   .contact-clean div input,
